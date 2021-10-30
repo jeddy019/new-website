@@ -1,4 +1,11 @@
-import initApp from "./js/index";
-import "./style/main.scss";
+import initTilt from "./tilt";
+import initSr from "./sr";
+import { addResume } from "./utils";
+import resume from "./resume.pdf";
 
-initApp();
+export default function initApp() {
+  initSr();
+  initTilt();
+  // comment this if you don't want to attach your resume
+  addResume(resume);
+}
