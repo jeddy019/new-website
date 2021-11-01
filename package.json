@@ -1,5 +1,5 @@
 {
-  "name": "simplefolio",
+  "name": "portfolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -31,7 +31,7 @@
     "prettier": "^2.3.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.0.0",
-    "webpack": "^4.0.0",
+    "webpack": "^5.61.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.2.0",
     "webpack-merge": "^5.8.0"
